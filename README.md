@@ -11,10 +11,9 @@ This project already have fix for https://github.com/getsentry/sentry-php/pull/6
 
 ## Installation
 
-There are various ways to install the PHP integration for Sentry.  The
-recommended way is to use [Composer](http://getcomposer.org).
+There are various ways to install the PHP integration for Sentry.
 
-    $ composer require fly304625/sentry-php:1.7.x-dev
+    $ git clone https://github.com/fly304625/sentry-php.git
 
 Alternatively you can manually install it:
 
@@ -56,21 +55,3 @@ Other packages exists to integrate this SDK into the most common frameworks.
 ## Community
 
 - [Documentation](https://docs.getsentry.com/hosted/clients/php/)
-- [Bug Tracker](http://github.com/immobiliare/sentry-php/issues)
-- [Code](http://github.com/immobiliare/sentry-php)
-
-
-Contributing
-------------
-
-Dependencies are managed through composer:
-
-```
-$ composer install
-```
-
-Tests can then be run via phpunit:
-
-```
-$ vendor/bin/phpunit
-```
