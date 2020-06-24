@@ -1,5 +1,14 @@
 # fly304625/sentry-php
 
+
+[![Build Status](https://travis-ci.org/fly304625/sentry-php.svg?branch=master)](https://travis-ci.org/fly304625/sentry-php)
+[![Latest Stable Version](https://poser.pugx.org/fly304625/sentry-php/v/stable?style=flat-square)](https://packagist.org/packages/fly304625/sentry-php)
+[![Total Downloads](https://poser.pugx.org/fly304625/sentry-php/downloads?style=flat-square)](https://packagist.org/packages/fly304625/sentry-php)
+[![Latest Unstable Version](https://poser.pugx.org/fly304625/sentry-php/v/unstable?style=flat-square)](https://packagist.org/packages/fly304625/sentry-php)
+[![License](https://poser.pugx.org/fly304625/sentry-php/license?style=flat-square)](https://packagist.org/packages/fly304625/sentry-php)
+[![Monthly Downloads](https://poser.pugx.org/fly304625/sentry-php/d/monthly?style=flat-square)](https://packagist.org/packages/fly304625/sentry-php)
+[![Daily Downloads](https://poser.pugx.org/fly304625/sentry-php/d/daily?style=flat-square)](https://packagist.org/packages/fly304625/sentry-php)
+
 This project is a fork of official [PHP SDK v1.7](https://github.com/getsentry/sentry-php) for [Sentry](https://getsentry.com) to work even with php5.2, php5.6
 This project already have fix for https://github.com/getsentry/sentry-php/pull/615/commits/21e39a6bc4e27591dabe4118d9b996bbc109b3a0
 
