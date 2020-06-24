@@ -1,9 +1,9 @@
 {
-    "name": "immobiliare/sentry-php",
+    "name": "fly304625/sentry-php",
     "type": "library",
-    "description": "Fork of a PHP client for Sentry (http://getsentry.com) that work also with php5.2",
-    "keywords": ["log", "logging", "sentry", "sentry-php", "php52", "php 5.2"],
-    "homepage": "https://github.com/immobiliare/sentry-php",
+    "description": "Fork of a PHP client for Sentry (http://getsentry.com) that work also with php5.2/php5.6",
+    "keywords": ["log", "logging", "sentry", "sentry-php", "php52", "php 5.2", "php56", "php6", "php 5.6"],
+    "homepage": "https://github.com/fly304625/sentry-php",
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -11,24 +11,13 @@
             "email": "dcramer@gmail.com"
         },
         {
-            "name": "ImmobiliareLabs",
-            "email": "labs@immobiliare.it"
+            "name": "Streamtele",
+            "email": "developers@streamtele.com"
         }
     ],
-    "require-dev": {
-        "friendsofphp/php-cs-fixer": "^1.8.0",
-        "phpunit/phpunit": "^4.8 || ^5.0",
-        "monolog/monolog": "*"
-    },
     "require": {
         "php": ">=5.2.4",
         "ext-curl": "*"
-    },
-    "suggest": {
-        "ext-hash": "*",
-        "ext-json": "*",
-        "ext-mbstring": "*",
-        "monolog/monolog": "Automatically capture Monolog events as breadcrumbs"
     },
     "conflict": {
         "raven/raven": "*"
@@ -39,22 +28,6 @@
     "autoload": {
         "psr-0" : {
             "Raven_" : "lib/"
-        }
-    },
-    "scripts": {
-        "tests": [
-            "vendor/bin/phpunit --verbose"
-        ],
-        "tests-report": [
-            "vendor/bin/phpunit --verbose --configuration phpunit.xml --coverage-html test/html-report"
-        ],
-        "phpcs": [
-            "vendor/bin/php-cs-fixer fix --config-file=.php_cs --verbose --diff --dry-run"
-        ]
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.7.x-dev"
         }
     }
 }
