@@ -23,6 +23,8 @@ This project already have fix for https://github.com/getsentry/sentry-php/pull/6
 There are various ways to install the PHP integration for Sentry.
 
     $ git clone https://github.com/fly304625/sentry-php.git
+    or
+    $ composer require fly304625/sentry-php
 
 Alternatively you can manually install it:
 
